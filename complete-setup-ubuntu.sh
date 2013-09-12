@@ -80,6 +80,6 @@ echo "nospoof on" >> //etc/host.conf
 
 # install fail2ban
 apt-get -y install denyhosts fail2ban
-sed -i 's/port = ssh/port = 102/g' /etc/fail2ban/jail.conf # configure new SSH port 102
+sed -i 's/port     = ssh/port = 102/g' /etc/fail2ban/jail.conf # configure new SSH port 102
 
 ) 2>&1 | tee /var/log/vpn-installer.log
