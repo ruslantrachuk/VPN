@@ -16,11 +16,12 @@ To get started with your own secure VPN, simply execute the following commands a
 
 	$ apt-get install git
 	$ cd /opt && git clone git://github.com/ruslantrachuk/VPN.git
-	$ cd VPN && chmod +x vpn-setup-vanilla.sh
-	$ bash vpn-setup-vanilla.sh
+	$ cd VPN && chmod +x complete-setup-ubuntu.sh
+	$ bash complete-setup-ubuntu.sh
 
 You can change cridentionals in vpn-setup.sh if it's needed.
 
+Use vpn-setup-ubuntu.sh if you need to install & configure pptpd only.
 
 ## Author
 
