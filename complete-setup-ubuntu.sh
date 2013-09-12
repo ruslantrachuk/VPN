@@ -13,19 +13,19 @@ SSH_PASS="vpn"
 
 VPN_IP=`curl ipv4.icanhazip.com>/dev/null 2>&1`
 
-VPN_USER="vpnuser"
-VPN_PASS="vpnuser"
+VPN_USER="myuser"
+VPN_PASS="myuser"
 
 VPN_LOCAL="192.168.244.1"
-VPN_REMOTE="192.168.244.2-10"
+VPN_REMOTE="192.168.244.2-20"
 
 # pptd installation & configuration
 apt-get -y install pptpd
 echo "localip $VPN_LOCAL" >> /etc/pptpd.conf # Local IP address of your VPN server
 echo "remoteip $VPN_REMOTE" >> /etc/pptpd.conf # Scope for your home network
 
-echo "ms-dns 8.8.8.8" >> /etc/ppp/options.pptpd # Google DNS Primary
-echo "ms-dns 4.4.4.4" >> /etc/ppp/options.pptpd # Google DNS Primary
+echo "ms-dns 8.8.8.8" >> /etc/ppp/pptpd-options # Google DNS Primary
+echo "ms-dns 4.4.4.4" >> /etc/ppp/pptpd-options # Google DNS Primary
 
 
 echo "$VPN_USER pptpd $VPN_PASS *" >> /etc/ppp/chap-secrets
