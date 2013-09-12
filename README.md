@@ -14,7 +14,7 @@ Based on git://github.com/drewsymo/VPN.git
 
 To get started with your own secure VPN, simply execute the following commands at your servers command-line:
 
-	$ apt-get install git
+	$ apt-get -y install git
 	$ cd /opt && git clone git://github.com/ruslantrachuk/VPN.git
 	$ cd VPN && chmod +x complete-setup-ubuntu.sh
 	$ bash complete-setup-ubuntu.sh
