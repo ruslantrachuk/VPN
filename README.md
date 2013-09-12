@@ -23,7 +23,3 @@ You can change cridentionals in vpn-setup.sh if it's needed.
 
 Use vpn-setup-ubuntu.sh if you need to install & configure pptpd only
 
-## Author
-
-**Ruslan Trachuk**
-
