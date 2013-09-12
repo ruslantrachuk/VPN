@@ -1,6 +1,6 @@
 # VPN node 
 
-PPTP VPN Installer for Ubuntu 12.04 droplet on Digital Ocean
+PPTP VPN Installer for Ubuntu 13.04 droplet on Digital Ocean
 In addition to PPTP instatlation and configuration the script does the following
 - change ssh access policy 
 	- switch ssh to port 102
@@ -21,7 +21,7 @@ To get started with your own secure VPN, simply execute the following commands a
 
 You can change cridentionals in vpn-setup.sh if it's needed.
 
-Use vpn-setup-ubuntu.sh if you need to install & configure pptpd only.
+Use vpn-setup-ubuntu.sh if you need to install & configure pptpd only
 
 ## Author
 
