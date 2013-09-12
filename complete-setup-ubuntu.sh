@@ -11,10 +11,8 @@
 SSH_USER="vpn"
 SSH_PASS="vpn"
 
-VPN_IP=`curl ipv4.icanhazip.com>/dev/null 2>&1`
-
 VPN_USER="myuser"
-VPN_PASS="myuser"
+VPN_PASS="mypass"
 
 VPN_LOCAL="192.168.244.1"
 VPN_REMOTE="192.168.244.2-20"
